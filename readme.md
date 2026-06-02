@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The **JavaScript Expert Programming Guide** is a structured JavaScript learning repository organized by programming subject matter, interview preparation, browser programming, frontend projects, asynchronous JavaScript, object-oriented programming, tooling, testing, Node.js, REST APIs, and full-stack JavaScript development.
+The **JavaScript Expert Programming Guide** is a structured JavaScript learning repository organized by programming subject matter, interview preparation, browser programming, React development, frontend projects, asynchronous JavaScript, object-oriented programming, tooling, testing, Node.js, REST APIs, and full-stack JavaScript development.
 
 Each folder represents a focused JavaScript topic, project, or methodology. The repository can be used as a step-by-step tutorial, coding reference, and portfolio project demonstrating JavaScript fundamentals through advanced full-stack application development.
 
@@ -13,8 +13,10 @@ Each folder represents a focused JavaScript topic, project, or methodology. The 
 | Project Area | Link | README | Description |
 |---|---|---|---|
 | JavaScript Core Programming Guide | [Open Repository](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main) | [Root README](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/blob/main/readme.md) | Main JavaScript tutorial covering variables, arrays, objects, functions, DOM, events, async JavaScript, OOP, modules, testing, Node.js modules, REST APIs, and frontend integration. |
+| JavaScript Sandbox Start | [Open Folder](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/javascript-sandbox-start) | [README](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/blob/main/javascript-sandbox-start/README.md) | Starter projects for the JavaScript learning path, including variables, arrays, functions, DOM, events, async JavaScript, Fetch, browser APIs, OOP, modules, testing, Node.js, REST APIs, and frontend integration. |
 | JavaScript Interview Question Mastery 2026 | [Open Folder](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/JavaScript-Interview-Question-Mastery-2026) | [README](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/blob/main/JavaScript-Interview-Question-Mastery-2026/README.md) | Interview preparation covering JavaScript fundamentals, DOM questions, async questions, comparison, memoization, algorithms, data structures, and practical data mapping exercises. |
 | Node JavaScript Full Stack Web Dev Mastery 2026 | [Open Folder](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026) | [README](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/blob/main/Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026/README.md) | Node.js and full-stack web development tutorial covering Node tools, TypeScript, concurrency, HTTP, streams, security, testing, templates, forms, databases, sessions, REST APIs, authentication, authorization, SportsStore, administration, and deployment. |
+| React JavaScript Full Stack Dev Pro 2026 | [Open Folder](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/React-JavaScript-Full-Stack-Dev-Pro-2026) | [README](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/blob/main/React-JavaScript-Full-Stack-Dev-Pro-2026/README.md) | React tutorial covering modern setup, JSX, components, props, styling, hooks, forms, validation, routing, advanced state management, Redux Toolkit, TanStack Query, Axios, CRUD, and API integration. |
 
 ---
 
@@ -43,9 +45,31 @@ Each folder represents a focused JavaScript topic, project, or methodology. The 
 | 19 | [19-nodejs-modules](./19-nodejs-modules) | Node.js Modules | CommonJS, ES modules in Node, npm packages, filesystem usage, backend organization, and server-side JavaScript. |
 | 20 | [20-randomideas-rest-api](./20-randomideas-rest-api) | RandomIdeas REST API | Express-style API design, routes, middleware, controllers, JSON, HTTP methods, status codes, validation, and CRUD. |
 | 21 | [21-randomideas-frontend](./21-randomideas-frontend) | RandomIdeas Frontend | Frontend API consumption, `fetch`, forms, rendering, validation, client-side state, and frontend/backend integration. |
-| 22 | [javascript-sandbox-start](./javascript-sandbox-start) | JavaScript Sandbox Starter | Starter files for quick JavaScript experiments, browser examples, DOM tests, syntax practice, and prototypes. |
+| 22 | [javascript-sandbox-start](./javascript-sandbox-start) | JavaScript Sandbox Starter | Starter files and README tutorial for JavaScript variables through full-stack frontend/API integration. |
 | 23 | [JavaScript-Interview-Question-Mastery-2026](./JavaScript-Interview-Question-Mastery-2026) | Interview Question Mastery | Interview prep folder with algorithms, data structures, JavaScript fundamentals, DOM, async, OOP, and PDF study guide. |
 | 24 | [Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026](./Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026) | Node JavaScript Full Stack Web Dev Mastery 2026 | Full-stack Node.js tutorial covering Node tooling, TypeScript, concurrency, HTTP, streams, security, testing, databases, sessions, REST APIs, authentication, SportsStore, and deployment. |
+| 25 | [React-JavaScript-Full-Stack-Dev-Pro-2026](./React-JavaScript-Full-Stack-Dev-Pro-2026) | React JavaScript Full Stack Dev Pro 2026 | React tutorial covering setup, JSX, components, styling, hooks, forms, routing, Redux Toolkit, state management, APIs, Axios, TanStack Query, and CRUD. |
+
+---
+
+## React JavaScript Full Stack Dev Pro 2026
+
+**Folder:** [React-JavaScript-Full-Stack-Dev-Pro-2026](./React-JavaScript-Full-Stack-Dev-Pro-2026)
+
+**README:** [React-JavaScript-Full-Stack-Dev-Pro-2026/README.md](./React-JavaScript-Full-Stack-Dev-Pro-2026/README.md)
+
+This project area contains a detailed 8-chapter React tutorial guide with code samples, expected outputs, detailed expected results, and key takeaways.
+
+### Covered Chapters
+
+1. Foundations of React and Modern Development Setup
+2. React Fundamentals and Core Concepts
+3. Styling in React Applications
+4. Mastering React Hooks
+5. Forms and Validation in React
+6. Routing in React with React Router
+7. Advanced State Management
+8. API Integration and Server Communication
 
 ---
 
@@ -56,29 +80,6 @@ Each folder represents a focused JavaScript topic, project, or methodology. The 
 **README:** [Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026/README.md](./Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026/README.md)
 
 This project area contains a detailed chapter-by-chapter Node.js and full-stack JavaScript tutorial guide with code samples, expected outputs, detailed expected results, and key takeaways.
-
-### Covered Chapters
-
-1. Working with the Node.js Tools
-2. JavaScript and TypeScript Primer
-3. Understanding Node.js Concurrency
-4. Handling HTTP Requests
-5. Using Node.js Streams
-6. Using Bundles and Content Security
-7. Unit Testing and Debugging
-8. Creating the Example Project
-9. Using HTML Templates
-10. Handling Form Data
-11. Using Databases
-12. Using Sessions
-13. Creating RESTful Web Services
-14. Authenticating and Authorizing Requests
-15. SportsStore: A Real Application
-16. SportsStore: Navigation and Cart
-17. SportsStore: Orders and Validation
-18. SportsStore: Authentication
-19. SportsStore: Administration
-20. SportsStore: Deployment
 
 ---
 
@@ -91,6 +92,7 @@ This project area contains a detailed chapter-by-chapter Node.js and full-stack 
 3. [Functions and Scope](./03-functions-scope)
 4. [Logic and Control Flow](./04-logic-control-flow)
 5. [Iteration and Array Methods](./05-iteration-array-methods)
+6. [JavaScript Sandbox Start](./javascript-sandbox-start)
 
 ## Browser Programming
 
@@ -112,7 +114,7 @@ This project area contains a detailed chapter-by-chapter Node.js and full-stack 
 3. [Tracalorie Project](./15-tracalorie-project)
 4. [Modules and Tooling](./16-modules-and-tooling)
 
-## Advanced JavaScript and Backend Development
+## Advanced JavaScript, React, and Backend Development
 
 1. [Iterators and Data Structures](./17-iterators-data-structures)
 2. [Unit Testing and Algorithms](./18-unit-testing-algorithms)
@@ -120,10 +122,11 @@ This project area contains a detailed chapter-by-chapter Node.js and full-stack 
 4. [RandomIdeas REST API](./20-randomideas-rest-api)
 5. [RandomIdeas Frontend](./21-randomideas-frontend)
 6. [JavaScript Interview Question Mastery 2026](./JavaScript-Interview-Question-Mastery-2026)
-7. [Node JavaScript Full Stack Web Dev Mastery 2026](./Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026)
+7. [React JavaScript Full Stack Dev Pro 2026](./React-JavaScript-Full-Stack-Dev-Pro-2026)
+8. [Node JavaScript Full Stack Web Dev Mastery 2026](./Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026)
 
 ---
 
 # Portfolio Summary
 
-This repository demonstrates JavaScript development from beginner syntax to interview-ready and project-ready skills. It includes JavaScript fundamentals, DOM programming, events, browser APIs, asynchronous programming, API integration, OOP, modules, testing, algorithms, Node.js, REST API development, frontend integration, interview preparation, and full-stack Node.js application development through the **Node JavaScript Full Stack Web Dev Mastery 2026** folder.
+This repository demonstrates JavaScript development from beginner syntax to interview-ready and project-ready skills. It includes JavaScript fundamentals, DOM programming, events, browser APIs, asynchronous programming, API integration, OOP, modules, testing, algorithms, Node.js, React, REST API development, frontend integration, interview preparation, and full-stack JavaScript application development.
