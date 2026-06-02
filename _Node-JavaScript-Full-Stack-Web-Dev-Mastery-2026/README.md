@@ -38,21 +38,6 @@ Explore Node.js with practical examples that will teach you how to utilize open-
 20. SportsStore: Administration
 21. SportsStore: Deployment
 
-
-
-
-> If you feel this book is for you, get your [copy](https://www.amazon.com/Mastering-Node-js-Web-Development-comprehensive/dp/1804615072/ref=sr_1_1?crid=12PEHAY1PVA02&dib=eyJ2IjoiMSJ9.11QJcPznryXeGb75dN71Wg.EfglnRqg7lmlVrKKMvyIcblhesbkz2MAFnDTyYG4xK4&dib_tag=se&keywords=9781804615072&qid=1718597110&sprefix=9781804615072%2Caps%2C367&sr=8-1) today! <img alt="Coding" height="15" width="35"  src="https://media.tenor.com/ex_HDD_k5P8AAAAi/habbo-habbohotel.gif">
-
-
-With the following software and hardware list you can run all code files present in the book (Chapter number mention here).
-
-## Software and hardware list
-
-| Chapter | Software required    | Link to the software    | Hardware specifications    | OS required    |
-|:---:  |:---:  |:---:  |:---:  |:---:  |
-| All chapters  | Node.js version 20.10.0  | [https://nodejs.org/en/download/package-manager](https://nodejs.org/en/download/package-manager) | Should work on any recent computer | Windows, MacOS, Linux (any), macOS, Windows |
-| All chapters  | Git  | [https://www.git-scm.com/downloads](https://www.git-scm.com/downloads) | Should work on any recent computer | Windows, MacOS, Linux (any), macOS, Windows |
-
 ## Other Related Books
 - [JavaScript from Beginner to Professional](https://www.packtpub.com/product/javascript-from-beginner-to-professional/9781800562523)
 - [Learning Angular - Fifth Edition](https://www.packtpub.com/product/learning-angular-fifth-edition/9781835087480)
