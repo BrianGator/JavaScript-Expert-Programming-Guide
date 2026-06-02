@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The **JavaScript Expert Programming Guide** is a structured JavaScript learning repository organized by programming subject matter, interview preparation, browser programming, React development, frontend projects, asynchronous JavaScript, object-oriented programming, tooling, testing, Node.js, REST APIs, and full-stack JavaScript development.
+The **JavaScript Expert Programming Guide** is a structured JavaScript learning repository organized by programming subject matter, interview preparation, browser programming, React development, Angular TypeScript development, frontend projects, asynchronous JavaScript, object-oriented programming, tooling, testing, Node.js, REST APIs, and full-stack JavaScript development.
 
 Each folder represents a focused JavaScript topic, project, or methodology. The repository can be used as a step-by-step tutorial, coding reference, and portfolio project demonstrating JavaScript fundamentals through advanced full-stack application development.
 
@@ -17,6 +17,7 @@ Each folder represents a focused JavaScript topic, project, or methodology. The 
 | JavaScript Interview Question Mastery 2026 | [Open Folder](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/JavaScript-Interview-Question-Mastery-2026) | [README](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/blob/main/JavaScript-Interview-Question-Mastery-2026/README.md) | Interview preparation covering JavaScript fundamentals, DOM questions, async questions, comparison, memoization, algorithms, data structures, and practical data mapping exercises. |
 | Node JavaScript Full Stack Web Dev Mastery 2026 | [Open Folder](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026) | [README](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/blob/main/Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026/README.md) | Node.js and full-stack web development tutorial covering Node tools, TypeScript, concurrency, HTTP, streams, security, testing, templates, forms, databases, sessions, REST APIs, authentication, authorization, SportsStore, administration, and deployment. |
 | React JavaScript Full Stack Dev Pro 2026 | [Open Folder](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/React-JavaScript-Full-Stack-Dev-Pro-2026) | [README](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/blob/main/React-JavaScript-Full-Stack-Dev-Pro-2026/README.md) | React tutorial covering modern setup, JSX, components, props, styling, hooks, forms, validation, routing, advanced state management, Redux Toolkit, TanStack Query, Axios, CRUD, and API integration. |
+| Angular TypeScript Fifth Edition 2026 | [Open Folder](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/Angular-TypeScript-Fifth-Edition-2026) | [README](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/blob/main/Angular-TypeScript-Fifth-Edition-2026/README.md) | Angular TypeScript tutorial covering Angular CLI, TypeScript, components, pipes, directives, services, dependency injection, RxJS, signals, HTTP, routing, forms, error handling, Angular Material, testing, production builds, and performance optimization. |
 
 ---
 
@@ -49,6 +50,35 @@ Each folder represents a focused JavaScript topic, project, or methodology. The 
 | 23 | [JavaScript-Interview-Question-Mastery-2026](./JavaScript-Interview-Question-Mastery-2026) | Interview Question Mastery | Interview prep folder with algorithms, data structures, JavaScript fundamentals, DOM, async, OOP, and PDF study guide. |
 | 24 | [Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026](./Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026) | Node JavaScript Full Stack Web Dev Mastery 2026 | Full-stack Node.js tutorial covering Node tooling, TypeScript, concurrency, HTTP, streams, security, testing, databases, sessions, REST APIs, authentication, SportsStore, and deployment. |
 | 25 | [React-JavaScript-Full-Stack-Dev-Pro-2026](./React-JavaScript-Full-Stack-Dev-Pro-2026) | React JavaScript Full Stack Dev Pro 2026 | React tutorial covering setup, JSX, components, styling, hooks, forms, routing, Redux Toolkit, state management, APIs, Axios, TanStack Query, and CRUD. |
+| 26 | [Angular-TypeScript-Fifth-Edition-2026](./Angular-TypeScript-Fifth-Edition-2026) | Angular TypeScript Fifth Edition 2026 | Angular TypeScript tutorial covering Angular CLI, components, templates, pipes, directives, services, DI, RxJS, signals, HTTP, routing, forms, Material, testing, production, and performance. |
+
+---
+
+## Angular TypeScript Fifth Edition 2026
+
+**Folder:** [Angular-TypeScript-Fifth-Edition-2026](./Angular-TypeScript-Fifth-Edition-2026)
+
+**README:** [Angular-TypeScript-Fifth-Edition-2026/README.md](./Angular-TypeScript-Fifth-Edition-2026/README.md)
+
+This project area contains a detailed 15-chapter Angular and TypeScript tutorial guide with code samples, expected outputs, detailed expected results, and key takeaways.
+
+### Covered Chapters
+
+1. Building Your First Angular Application
+2. Introduction to TypeScript
+3. Structuring User Interfaces with Components
+4. Enriching Applications Using Pipes and Directives
+5. Managing Complex Tasks with Services
+6. Reactive Patterns in Angular
+7. Tracking Application State with Signals
+8. Communicating with Data Services over HTTP
+9. Navigating through Applications with Routing
+10. Collecting User Data with Forms
+11. Handling Application Errors
+12. Introduction to Angular Material
+13. Unit Testing Angular Applications
+14. Bringing Applications to Production
+15. Optimizing Application Performance
 
 ---
 
@@ -59,17 +89,6 @@ Each folder represents a focused JavaScript topic, project, or methodology. The 
 **README:** [React-JavaScript-Full-Stack-Dev-Pro-2026/README.md](./React-JavaScript-Full-Stack-Dev-Pro-2026/README.md)
 
 This project area contains a detailed 8-chapter React tutorial guide with code samples, expected outputs, detailed expected results, and key takeaways.
-
-### Covered Chapters
-
-1. Foundations of React and Modern Development Setup
-2. React Fundamentals and Core Concepts
-3. Styling in React Applications
-4. Mastering React Hooks
-5. Forms and Validation in React
-6. Routing in React with React Router
-7. Advanced State Management
-8. API Integration and Server Communication
 
 ---
 
@@ -114,7 +133,7 @@ This project area contains a detailed chapter-by-chapter Node.js and full-stack 
 3. [Tracalorie Project](./15-tracalorie-project)
 4. [Modules and Tooling](./16-modules-and-tooling)
 
-## Advanced JavaScript, React, and Backend Development
+## Advanced JavaScript, Frontend Frameworks, and Backend Development
 
 1. [Iterators and Data Structures](./17-iterators-data-structures)
 2. [Unit Testing and Algorithms](./18-unit-testing-algorithms)
@@ -123,10 +142,11 @@ This project area contains a detailed chapter-by-chapter Node.js and full-stack 
 5. [RandomIdeas Frontend](./21-randomideas-frontend)
 6. [JavaScript Interview Question Mastery 2026](./JavaScript-Interview-Question-Mastery-2026)
 7. [React JavaScript Full Stack Dev Pro 2026](./React-JavaScript-Full-Stack-Dev-Pro-2026)
-8. [Node JavaScript Full Stack Web Dev Mastery 2026](./Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026)
+8. [Angular TypeScript Fifth Edition 2026](./Angular-TypeScript-Fifth-Edition-2026)
+9. [Node JavaScript Full Stack Web Dev Mastery 2026](./Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026)
 
 ---
 
 # Portfolio Summary
 
-This repository demonstrates JavaScript development from beginner syntax to interview-ready and project-ready skills. It includes JavaScript fundamentals, DOM programming, events, browser APIs, asynchronous programming, API integration, OOP, modules, testing, algorithms, Node.js, React, REST API development, frontend integration, interview preparation, and full-stack JavaScript application development.
+This repository demonstrates JavaScript development from beginner syntax to interview-ready and project-ready skills. It includes JavaScript fundamentals, DOM programming, events, browser APIs, asynchronous programming, API integration, OOP, modules, testing, algorithms, Node.js, React, Angular, TypeScript, REST API development, frontend integration, interview preparation, and full-stack JavaScript application development.
