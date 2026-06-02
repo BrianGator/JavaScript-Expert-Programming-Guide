@@ -53,18 +53,6 @@ With the following software and hardware list you can run all code files present
 | All chapters  | Node.js version 20.10.0  | [https://nodejs.org/en/download/package-manager](https://nodejs.org/en/download/package-manager) | Should work on any recent computer | Windows, MacOS, Linux (any), macOS, Windows |
 | All chapters  | Git  | [https://www.git-scm.com/downloads](https://www.git-scm.com/downloads) | Should work on any recent computer | Windows, MacOS, Linux (any), macOS, Windows |
 
-
-
-## Download a free PDF <img alt="Coding" height="25" width="40" src="https://emergency.com.au/wp-content/uploads/2021/03/free.gif">
-
-_If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost. Simply click on the link to claim your free PDF._
-[Free-Ebook](https://packt.link/free-ebook/9781804615072) <img alt="Coding" height="15" width="35"  src="https://media.tenor.com/ex_HDD_k5P8AAAAi/habbo-habbohotel.gif">
-
-
-## Get to know the Author
-_Adam Freeman_ is an experienced IT professional who started his career as a programmer. He held senior positions in a range of companies, where he was most recently serving as Chief Technology Officer and Chief Operating Officer of a global bank. He has written 53 programming books, focusing mostly on web application development. Now retired, he spends his time writing and trying to make furniture.
-
-
 ## Other Related Books
 - [JavaScript from Beginner to Professional](https://www.packtpub.com/product/javascript-from-beginner-to-professional/9781800562523)
 - [Learning Angular - Fifth Edition](https://www.packtpub.com/product/learning-angular-fifth-edition/9781835087480)
