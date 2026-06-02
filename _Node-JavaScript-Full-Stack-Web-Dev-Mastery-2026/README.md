@@ -1,19 +1,9 @@
-# Mastering Node.js Web Development, First Edition
-This is the code repository for [Mastering Node.js Web Development, First Edition](https://www.packtpub.com/product/mastering-nodejs-web-development/9781804615072), published by Packt.
-
+# Mastering Node.js Web Development
 **Go on a comprehensive journey from the fundamentals to advanced web development with Node.js**
-
-The authors of this book are -[Adam Freeman]()
-
-## About the book
-Dive into the world of Node.js with this comprehensive guide, taking you from foundational concepts to practical web development mastery. Written by an industry veteran with over 50 programming books under his belt, this book will help both beginners and seasoned developers.
 
 Gain a deep understanding of the most important server-side features in web development with Node.js. The first part of the book will get you up to speed with basic features of Node.js and TypeScript. In the second part, you’ll elevate your skills by creating simplified implementations of key server-side features to understand how they work and how they are presented to clients. Armed with the understanding gained from implementing each feature, you will be able to replace custom code with production-ready open-source packages.
 
 The third part will help you understand how server-side features are combined for practical web development. Using Adam Freeman’s signature SportsStore application, you will learn how to develop client and server-side components, culminating in a thorough application deployment preparation.
-
-By the end of this Node.js book, you will be able to build and deploy server applications to support HTTP clients, including JavaScript applications created with frameworks such as Angular and React.
-
 
 ## Key Takeaways
 - Process HTTP requests and perform file operations
@@ -24,9 +14,7 @@ By the end of this Node.js book, you will be able to build and deploy server app
 - Authenticate users and authorize access to application features
 
 ## Outline and Chapter Summary
-
 Explore Node.js with practical examples that will teach you how to utilize open-source packages for real-world solutions. Gain the skills to develop and deploy server-side applications that enhance your client-side projects.
-
 
 1. Getting Ready
 2. Working with the Node.js Tools
