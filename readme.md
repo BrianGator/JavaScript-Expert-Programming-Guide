@@ -1,9 +1,4 @@
 # JavaScript Expert Programming Guide Tutorial
-
-Written by Brian McCarthy
-
-## Project Overview
-
 The **JavaScript Expert Programming Guide** is a structured JavaScript learning repository organized by programming subject matter, interview preparation, browser programming, frontend projects, asynchronous JavaScript, object-oriented programming, tooling, testing, Node.js, REST APIs, and full-stack JavaScript development.
 
 Each numbered folder represents a focused JavaScript topic or methodology. The repository can be used as a step-by-step tutorial, a coding reference, and a portfolio project demonstrating JavaScript fundamentals through advanced application development.
