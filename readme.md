@@ -14,7 +14,7 @@ Each folder represents a focused JavaScript topic, project, or methodology. The 
 |---|---|---|---|
 | JavaScript Core Programming Guide | [Open Repository](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main) | [Root README](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/blob/main/readme.md) | Main JavaScript tutorial covering variables, arrays, objects, functions, DOM, events, async JavaScript, OOP, modules, testing, Node.js modules, REST APIs, and frontend integration. |
 | JavaScript Interview Question Mastery 2026 | [Open Folder](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/JavaScript-Interview-Question-Mastery-2026) | [README](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/blob/main/JavaScript-Interview-Question-Mastery-2026/README.md) | Interview preparation covering JavaScript fundamentals, DOM questions, async questions, comparison, memoization, algorithms, data structures, and practical data mapping exercises. |
-| Node JavaScript Full Stack Web Dev Mastery 2026 | [Open Folder](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/_Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026) | [README](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/blob/main/_Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026/README.md) | Node.js and full-stack web development tutorial covering Node tools, TypeScript, concurrency, HTTP, streams, security, testing, templates, forms, databases, sessions, REST APIs, authentication, authorization, SportsStore, administration, and deployment. |
+| Node JavaScript Full Stack Web Dev Mastery 2026 | [Open Folder](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026) | [README](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/blob/main/Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026/README.md) | Node.js and full-stack web development tutorial covering Node tools, TypeScript, concurrency, HTTP, streams, security, testing, templates, forms, databases, sessions, REST APIs, authentication, authorization, SportsStore, administration, and deployment. |
 
 ---
 
@@ -45,15 +45,15 @@ Each folder represents a focused JavaScript topic, project, or methodology. The 
 | 21 | [21-randomideas-frontend](./21-randomideas-frontend) | RandomIdeas Frontend | Frontend API consumption, `fetch`, forms, rendering, validation, client-side state, and frontend/backend integration. |
 | 22 | [javascript-sandbox-start](./javascript-sandbox-start) | JavaScript Sandbox Starter | Starter files for quick JavaScript experiments, browser examples, DOM tests, syntax practice, and prototypes. |
 | 23 | [JavaScript-Interview-Question-Mastery-2026](./JavaScript-Interview-Question-Mastery-2026) | Interview Question Mastery | Interview prep folder with algorithms, data structures, JavaScript fundamentals, DOM, async, OOP, and PDF study guide. |
-| 24 | [_Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026](./_Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026) | Node JavaScript Full Stack Web Dev Mastery 2026 | Full-stack Node.js tutorial covering Node tooling, TypeScript, concurrency, HTTP, streams, security, testing, databases, sessions, REST APIs, authentication, SportsStore, and deployment. |
+| 24 | [Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026](./Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026) | Node JavaScript Full Stack Web Dev Mastery 2026 | Full-stack Node.js tutorial covering Node tooling, TypeScript, concurrency, HTTP, streams, security, testing, databases, sessions, REST APIs, authentication, SportsStore, and deployment. |
 
 ---
 
 ## Node JavaScript Full Stack Web Dev Mastery 2026
 
-**Folder:** [_Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026](./_Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026)
+**Folder:** [Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026](./Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026)
 
-**README:** [_Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026/README.md](./_Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026/README.md)
+**README:** [Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026/README.md](./Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026/README.md)
 
 This project area contains a detailed chapter-by-chapter Node.js and full-stack JavaScript tutorial guide with code samples, expected outputs, detailed expected results, and key takeaways.
 
@@ -120,7 +120,7 @@ This project area contains a detailed chapter-by-chapter Node.js and full-stack 
 4. [RandomIdeas REST API](./20-randomideas-rest-api)
 5. [RandomIdeas Frontend](./21-randomideas-frontend)
 6. [JavaScript Interview Question Mastery 2026](./JavaScript-Interview-Question-Mastery-2026)
-7. [Node JavaScript Full Stack Web Dev Mastery 2026](./_Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026)
+7. [Node JavaScript Full Stack Web Dev Mastery 2026](./Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026)
 
 ---
 
