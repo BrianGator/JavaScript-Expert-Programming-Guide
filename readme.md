@@ -1,19 +1,10 @@
 # JavaScript Expert Programming Guide Tutorial
 
-Written by Brian McCarthy
-
 ## Project Overview
 
 The **JavaScript Expert Programming Guide** is a structured JavaScript learning repository organized by programming subject matter, interview preparation, browser programming, frontend projects, asynchronous JavaScript, object-oriented programming, tooling, testing, Node.js, REST APIs, and full-stack JavaScript development.
 
 Each numbered folder represents a focused JavaScript topic or methodology. The repository can be used as a step-by-step tutorial, a coding reference, and a portfolio project demonstrating JavaScript fundamentals through advanced application development.
-
-## Main Repository Links
-
-- [Repository Home](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide)
-- [JavaScript Interview Question Mastery 2026 Folder](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/JavaScript-Interview-Question-Mastery-2026)
-- [JavaScript Interview Question Mastery 2026 PDF](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/blob/main/JavaScript-Interview-Question-Mastery-2026/JavaScript-Interview-Question-Mastery-2026.pdf)
-- [JavaScript Interview Question Mastery 2026 README](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/blob/main/JavaScript-Interview-Question-Mastery-2026/README.md)
 
 ---
 
@@ -49,13 +40,11 @@ Each numbered folder represents a focused JavaScript topic or methodology. The r
 
 # JavaScript Programming Tutorial with Code Samples
 
-This section provides code samples and explanations for each major programming concept represented by the numbered folders, their subfolders, and their JavaScript files. Use each folder link to inspect the exact local examples and subfolder files in the repository.
+This section provides code samples and explanations for each major programming concept represented by the numbered folders, their subfolders, and their JavaScript files.
 
 ## 01-variables-data-types
 
 **Folder:** [01-variables-data-types](./01-variables-data-types)
-
-**Concepts covered:** variables, constants, primitives, references, `typeof`, strings, numbers, booleans, `null`, `undefined`, symbols, BigInt, type conversion, type coercion, template literals, stack vs heap behavior.
 
 ```javascript
 const firstName = 'Brian';
@@ -64,23 +53,18 @@ const isLearningJavaScript = true;
 let currentRole = null;
 let nextGoal;
 
-console.log(typeof firstName);      // string
-console.log(typeof age);            // number
-console.log(typeof isLearningJavaScript); // boolean
-console.log(currentRole);           // null
-console.log(nextGoal);              // undefined
-
-const summary = `${firstName} is learning expert JavaScript.`;
-console.log(summary);
+console.log(typeof firstName);
+console.log(typeof age);
+console.log(typeof isLearningJavaScript);
+console.log(currentRole);
+console.log(nextGoal);
 ```
 
-**Explanation:** `const` prevents reassignment, `let` allows reassignment, and JavaScript infers data types at runtime. Primitive values such as strings and numbers are copied by value. Objects and arrays are reference values, so variables can point to the same underlying object.
+**Explanation:** This folder introduces variables, constants, primitives, reference values, `typeof`, `null`, `undefined`, type conversion, coercion, and template literals.
 
 ## 02-arrays-and-objects
 
 **Folder:** [02-arrays-and-objects](./02-arrays-and-objects)
-
-**Concepts covered:** arrays, object literals, nested objects, nested arrays, destructuring, spread syntax, object methods, array mutation, object references, JSON-style data.
 
 ```javascript
 const skills = ['JavaScript', 'Node.js', 'REST APIs'];
@@ -89,28 +73,19 @@ const developer = {
   name: 'Brian McCarthy',
   title: 'JavaScript Developer',
   skills,
-  contact: {
-    github: 'BrianGator'
-  },
   describe() {
     return `${this.name} works with ${this.skills.join(', ')}.`;
   }
 };
 
-const [primarySkill] = skills;
-const updatedDeveloper = { ...developer, active: true };
-
-console.log(primarySkill);
-console.log(updatedDeveloper.describe());
+console.log(developer.describe());
 ```
 
-**Explanation:** Arrays organize ordered lists. Objects organize named values. Most real JavaScript applications use arrays of objects to model users, products, tasks, movies, orders, API responses, and application state.
+**Explanation:** This folder covers arrays, objects, nested structures, destructuring, spread syntax, object methods, and JSON-style data modeling.
 
 ## 03-functions-scope
 
 **Folder:** [03-functions-scope](./03-functions-scope)
-
-**Concepts covered:** function declarations, function expressions, arrow functions, default parameters, rest parameters, return values, lexical scope, block scope, closures, callbacks, hoisting.
 
 ```javascript
 function calculateSubtotal(price, quantity) {
@@ -121,26 +96,19 @@ const applyDiscount = (subtotal, rate = 0.1) => subtotal - subtotal * rate;
 
 function createCounter() {
   let count = 0;
-
-  return function increment() {
-    count += 1;
-    return count;
-  };
+  return () => ++count;
 }
 
 const counter = createCounter();
-console.log(applyDiscount(calculateSubtotal(25, 4), 0.2)); // 80
-console.log(counter()); // 1
-console.log(counter()); // 2
+console.log(applyDiscount(calculateSubtotal(25, 4), 0.2));
+console.log(counter());
 ```
 
-**Explanation:** Functions make code reusable and testable. Closures allow inner functions to remember outer variables. This is used heavily in callbacks, event handlers, modules, memoization, debouncing, and functional programming.
+**Explanation:** This folder explains declarations, expressions, arrow functions, parameters, returns, lexical scope, block scope, closures, callbacks, and hoisting.
 
 ## 04-logic-control-flow
 
 **Folder:** [04-logic-control-flow](./04-logic-control-flow)
-
-**Concepts covered:** `if`, `else`, `else if`, `switch`, comparison operators, logical operators, ternary operators, guard clauses, truthy/falsy values, short-circuiting.
 
 ```javascript
 const user = { role: 'admin', isActive: true };
@@ -152,18 +120,13 @@ if (!user.isActive) {
 } else {
   console.log('Show standard dashboard');
 }
-
-const accessLevel = user.role === 'admin' ? 'full' : 'limited';
-console.log(accessLevel);
 ```
 
-**Explanation:** Control flow determines which branch of code runs. Interview questions often test strict equality, truthy/falsy behavior, nested conditions, short-circuit evaluation, and guard-clause refactoring.
+**Explanation:** This folder covers `if`, `else`, `switch`, comparison operators, logical operators, truthy/falsy behavior, ternaries, and guard clauses.
 
 ## 05-iteration-array-methods
 
 **Folder:** [05-iteration-array-methods](./05-iteration-array-methods)
-
-**Concepts covered:** `for`, `while`, `for...of`, `for...in`, `forEach`, `map`, `filter`, `reduce`, `find`, `some`, `every`, sorting, chaining array methods.
 
 ```javascript
 const products = [
@@ -176,42 +139,29 @@ const availableProductNames = products
   .filter(product => product.inStock)
   .map(product => product.name);
 
-const inventoryValue = products.reduce((total, product) => {
-  return total + product.price;
-}, 0);
-
-console.log(availableProductNames);
-console.log(inventoryValue);
+const inventoryValue = products.reduce((total, product) => total + product.price, 0);
 ```
 
-**Explanation:** Iteration is used for rendering lists, transforming API data, calculating totals, filtering search results, validating forms, and solving interview algorithms.
+**Explanation:** This folder demonstrates loops, `forEach`, `map`, `filter`, `reduce`, `find`, `some`, `every`, sorting, and array method chaining.
 
 ## 06-document-object-model
 
 **Folder:** [06-document-object-model](./06-document-object-model)
-
-**Concepts covered:** DOM selection, node lists, creating elements, appending elements, removing elements, attributes, classes, styles, traversing parent/child/sibling nodes, rendering data.
 
 ```javascript
 const app = document.querySelector('#app');
 const card = document.createElement('article');
 
 card.className = 'card';
-card.innerHTML = `
-  <h2>DOM Lesson</h2>
-  <p>JavaScript can create and update HTML dynamically.</p>
-`;
-
+card.innerHTML = '<h2>DOM Lesson</h2><p>JavaScript updates HTML dynamically.</p>';
 app.appendChild(card);
 ```
 
-**Explanation:** The DOM is the browser's object model for HTML. JavaScript uses the DOM to create interactive pages, update content after API calls, display validation messages, and render application state.
+**Explanation:** This folder covers DOM selection, traversal, element creation, attributes, classes, styles, content updates, and browser rendering.
 
 ## 07-events
 
 **Folder:** [07-events](./07-events)
-
-**Concepts covered:** click events, submit events, input events, keyboard events, mouse events, event objects, `preventDefault`, event bubbling, capturing, delegation, dynamic elements.
 
 ```javascript
 const form = document.querySelector('#task-form');
@@ -220,59 +170,38 @@ const list = document.querySelector('#task-list');
 
 form.addEventListener('submit', event => {
   event.preventDefault();
-
-  const value = input.value.trim();
-  if (!value) return;
-
-  list.insertAdjacentHTML('beforeend', `<li>${value}</li>`);
+  if (!input.value.trim()) return;
+  list.insertAdjacentHTML('beforeend', `<li>${input.value}</li>`);
   input.value = '';
-});
-
-list.addEventListener('click', event => {
-  if (event.target.matches('li')) {
-    event.target.remove();
-  }
 });
 ```
 
-**Explanation:** Events connect user actions to application logic. Event delegation is especially important when elements are added dynamically after the page loads.
+**Explanation:** This folder explains click events, form events, keyboard events, event objects, `preventDefault`, bubbling, capturing, delegation, and dynamic UI behavior.
 
 ## 08-shopping-list-project
 
 **Folder:** [08-shopping-list-project](./08-shopping-list-project)
 
-**Concepts covered:** project-based DOM manipulation, add/edit/delete items, form validation, filtering, clearing lists, local state, UI rendering, event delegation, bug fixing.
-
 ```javascript
 const items = [];
 
 function addItem(name) {
-  const item = { id: crypto.randomUUID(), name };
-  items.push(item);
-  renderItems();
-}
-
-function deleteItem(id) {
-  const index = items.findIndex(item => item.id === id);
-  if (index !== -1) items.splice(index, 1);
+  items.push({ id: crypto.randomUUID(), name });
   renderItems();
 }
 
 function renderItems() {
-  const list = document.querySelector('#shopping-list');
-  list.innerHTML = items
+  document.querySelector('#shopping-list').innerHTML = items
     .map(item => `<li data-id="${item.id}">${item.name}</li>`)
     .join('');
 }
 ```
 
-**Explanation:** This project ties together arrays, objects, functions, DOM rendering, and events. It is a small CRUD application pattern that prepares you for larger frontend projects.
+**Explanation:** This project combines arrays, objects, functions, DOM rendering, events, validation, editing, deleting, filtering, and list management.
 
 ## 09-asynchronous-javascript
 
 **Folder:** [09-asynchronous-javascript](./09-asynchronous-javascript)
-
-**Concepts covered:** synchronous vs asynchronous execution, callbacks, timers, promises, promise chaining, `resolve`, `reject`, `.then`, `.catch`, `.finally`, event loop behavior.
 
 ```javascript
 function getUserById(id) {
@@ -284,99 +213,62 @@ function getUserById(id) {
   });
 }
 
-getUserById(1)
-  .then(user => console.log(user.name))
-  .catch(error => console.error(error.message))
-  .finally(() => console.log('Request completed'));
+getUserById(1).then(user => console.log(user.name));
 ```
 
-**Explanation:** Asynchronous JavaScript handles delayed work such as timers, file access, network calls, and user events without blocking the main thread.
+**Explanation:** This folder covers callbacks, timers, promises, promise chains, `.then`, `.catch`, `.finally`, asynchronous flow, and the event loop.
 
 ## 10-fetch-and-async-await
 
 **Folder:** [10-fetch-and-async-await](./10-fetch-and-async-await)
 
-**Concepts covered:** Fetch API, HTTP methods, headers, request bodies, JSON, `async`, `await`, `try...catch`, response status checking, API loading/error states.
-
 ```javascript
 async function createPost(title, body) {
-  try {
-    const response = await fetch('https://jsonplaceholder.typicode.com/posts', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ title, body, userId: 1 })
-    });
+  const response = await fetch('https://jsonplaceholder.typicode.com/posts', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ title, body, userId: 1 })
+  });
 
-    if (!response.ok) {
-      throw new Error(`HTTP error ${response.status}`);
-    }
-
-    return await response.json();
-  } catch (error) {
-    console.error('API request failed:', error.message);
-  }
+  if (!response.ok) throw new Error(`HTTP error ${response.status}`);
+  return response.json();
 }
 ```
 
-**Explanation:** `async` and `await` make promise-based code easier to read. API code should check `response.ok`, parse JSON carefully, and handle failures clearly.
+**Explanation:** This folder demonstrates `fetch`, HTTP methods, headers, JSON, `async`, `await`, response validation, and API error handling.
 
 ## 11-flixx-app-project
 
 **Folder:** [11-flixx-app-project](./11-flixx-app-project)
 
-**Concepts covered:** API-driven frontend architecture, movie search, detail pages, dynamic cards, URL parameters, routing-style page detection, pagination, loading spinners, reusable API helpers.
-
 ```javascript
 async function searchMovies(query) {
-  const url = `/api/movies/search?query=${encodeURIComponent(query)}`;
-  const response = await fetch(url);
+  const response = await fetch(`/api/movies/search?query=${encodeURIComponent(query)}`);
   if (!response.ok) throw new Error('Movie search failed');
   const data = await response.json();
   return data.results;
 }
-
-function renderMovieCards(movies) {
-  document.querySelector('#results').innerHTML = movies
-    .map(movie => `
-      <article class="movie-card">
-        <h3>${movie.title}</h3>
-        <p>Rating: ${movie.vote_average ?? 'N/A'}</p>
-      </article>
-    `)
-    .join('');
-}
 ```
 
-**Explanation:** The Flixx project demonstrates how to combine `fetch`, DOM rendering, forms, query parameters, and reusable functions into a real-world frontend application.
+**Explanation:** This project uses API-driven frontend architecture, movie search, detail pages, dynamic cards, URL parameters, pagination, loading spinners, and reusable API helpers.
 
 ## 12-web-browser-apis
 
 **Folder:** [12-web-browser-apis](./12-web-browser-apis)
 
-**Concepts covered:** local storage, session storage, cookies overview, history API, location API, URLSearchParams, geolocation, clipboard, canvas, timers, browser dialogs.
-
 ```javascript
-const preferences = {
-  theme: 'dark',
-  showCompleted: false
-};
-
+const preferences = { theme: 'dark', showCompleted: false };
 localStorage.setItem('preferences', JSON.stringify(preferences));
 
 const savedPreferences = JSON.parse(localStorage.getItem('preferences'));
-console.log(savedPreferences.theme);
-
 const params = new URLSearchParams(window.location.search);
-console.log(params.get('page'));
 ```
 
-**Explanation:** Browser APIs extend JavaScript beyond the language itself. They support persistent settings, navigation, device features, graphics, and richer user experiences.
+**Explanation:** This folder covers local storage, session storage, history, location, URLSearchParams, geolocation, clipboard, canvas, timers, and browser-native APIs.
 
 ## 13-oop-constructors-prototypes
 
 **Folder:** [13-oop-constructors-prototypes](./13-oop-constructors-prototypes)
-
-**Concepts covered:** constructor functions, `new`, prototypes, prototype methods, prototype chain lookup, inheritance, `call`, `apply`, shared behavior, memory efficiency.
 
 ```javascript
 function Task(title, priority) {
@@ -388,23 +280,13 @@ function Task(title, priority) {
 Task.prototype.complete = function () {
   this.completed = true;
 };
-
-Task.prototype.describe = function () {
-  return `${this.title} - Priority: ${this.priority}`;
-};
-
-const task = new Task('Study prototypes', 'High');
-task.complete();
-console.log(task.describe());
 ```
 
-**Explanation:** Before classes, constructor functions and prototypes were the primary way to create reusable object behavior in JavaScript. Classes are syntactic sugar over this prototype model.
+**Explanation:** This folder explains constructor functions, `new`, prototypes, prototype methods, prototype chains, inheritance, shared behavior, and memory-efficient OOP.
 
 ## 14-oop-classes-private-properties
 
 **Folder:** [14-oop-classes-private-properties](./14-oop-classes-private-properties)
-
-**Concepts covered:** ES6 classes, constructors, instance methods, static methods, inheritance, `extends`, `super`, private fields, getters, setters, encapsulation.
 
 ```javascript
 class UserAccount {
@@ -418,29 +300,19 @@ class UserAccount {
   verifyPassword(hashToCheck) {
     return this.#passwordHash === hashToCheck;
   }
-
-  static createGuest() {
-    return new UserAccount('guest', 'readonly');
-  }
 }
-
-const account = new UserAccount('brian', 'abc123');
-console.log(account.verifyPassword('abc123'));
 ```
 
-**Explanation:** Classes organize object behavior with a cleaner syntax. Private fields prevent direct outside access, which supports safer object design.
+**Explanation:** This folder covers ES6 classes, constructors, methods, inheritance, `super`, static methods, private fields, getters, setters, and encapsulation.
 
 ## 15-tracalorie-project
 
 **Folder:** [15-tracalorie-project](./15-tracalorie-project)
 
-**Concepts covered:** OOP application design, calorie tracker state, item models, controllers, modules, rendering, form inputs, validation, storage, edit/delete flows, dashboard totals.
-
 ```javascript
 class CalorieTracker {
   constructor() {
     this.meals = [];
-    this.workouts = [];
   }
 
   addMeal(name, calories) {
@@ -451,66 +323,46 @@ class CalorieTracker {
     return this.meals.reduce((total, meal) => total + meal.calories, 0);
   }
 }
-
-const tracker = new CalorieTracker();
-tracker.addMeal('Chicken Salad', 450);
-console.log(tracker.getTotalMealCalories());
 ```
 
-**Explanation:** The Tracalorie project demonstrates real application structure: data models, state updates, calculations, form handling, storage, and UI synchronization.
+**Explanation:** This project applies OOP, modules, state management, local storage, forms, rendering, CRUD behavior, and calorie calculations.
 
 ## 16-modules-and-tooling
 
 **Folder:** [16-modules-and-tooling](./16-modules-and-tooling)
 
-**Concepts covered:** ES modules, named exports, default exports, import paths, npm, package scripts, bundlers, build tools, dev servers, project organization.
-
 ```javascript
 // utils/currency.js
 export function formatCurrency(amount) {
-  return new Intl.NumberFormat('en-US', {
-    style: 'currency',
-    currency: 'USD'
-  }).format(amount);
+  return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(amount);
 }
 
 // app.js
 import { formatCurrency } from './utils/currency.js';
-
 console.log(formatCurrency(129.99));
 ```
 
-**Explanation:** Modules split code into focused files. Tooling automates repetitive work such as bundling, transpiling, testing, linting, and running local development servers.
+**Explanation:** This folder explains ES modules, named exports, default exports, import paths, npm, package scripts, bundlers, dev servers, and project organization.
 
 ## 17-iterators-data-structures
 
 **Folder:** [17-iterators-data-structures](./17-iterators-data-structures)
 
-**Concepts covered:** symbols, iterables, iterators, generators, `Map`, `Set`, weak collections, stacks, queues, linked lists, custom data structures.
-
 ```javascript
 function* idGenerator() {
   let id = 1;
-  while (true) {
-    yield id++;
-  }
+  while (true) yield id++;
 }
 
 const ids = idGenerator();
-console.log(ids.next().value); // 1
-console.log(ids.next().value); // 2
-
 const uniqueNames = new Set(['Ana', 'Brian', 'Ana']);
-console.log([...uniqueNames]);
 ```
 
-**Explanation:** Data structures provide specialized ways to store and retrieve data. Interview problems often ask when to use arrays, sets, maps, stacks, queues, or linked lists.
+**Explanation:** This folder covers symbols, iterables, iterators, generators, `Map`, `Set`, stacks, queues, linked lists, and custom data structures.
 
 ## 18-unit-testing-algorithms
 
 **Folder:** [18-unit-testing-algorithms](./18-unit-testing-algorithms)
-
-**Concepts covered:** pure functions, assertions, test cases, expected output, edge cases, algorithmic complexity, strings, arrays, recursion, sorting, searching, debugging.
 
 ```javascript
 function isPalindrome(value) {
@@ -519,16 +371,13 @@ function isPalindrome(value) {
 }
 
 console.assert(isPalindrome('Racecar') === true);
-console.assert(isPalindrome('JavaScript') === false);
 ```
 
-**Explanation:** Unit testing proves that small pieces of logic work correctly. Algorithm practice improves your ability to reason about inputs, outputs, edge cases, and performance.
+**Explanation:** This folder introduces pure functions, assertions, tests, edge cases, Big O thinking, string algorithms, array algorithms, recursion, sorting, and debugging.
 
 ## 19-nodejs-modules
 
 **Folder:** [19-nodejs-modules](./19-nodejs-modules)
-
-**Concepts covered:** Node.js runtime, CommonJS, ES modules, `require`, `module.exports`, npm packages, filesystem modules, path modules, environment variables, backend scripting.
 
 ```javascript
 // logger.js
@@ -537,52 +386,36 @@ function logInfo(message) {
 }
 
 module.exports = { logInfo };
-
-// app.js
-const { logInfo } = require('./logger');
-logInfo('Node.js module loaded');
 ```
 
-**Explanation:** Node.js runs JavaScript outside the browser. Modules keep backend utilities, routes, services, and configuration isolated and reusable.
+**Explanation:** This folder covers Node.js, CommonJS, ES modules in Node, `require`, `module.exports`, npm packages, filesystem modules, path modules, and backend scripting.
 
 ## 20-randomideas-rest-api
 
 **Folder:** [20-randomideas-rest-api](./20-randomideas-rest-api)
 
-**Concepts covered:** REST API design, Express routes, controllers, middleware, JSON, request bodies, route parameters, status codes, validation, CRUD endpoints, server structure.
-
 ```javascript
 const express = require('express');
 const app = express();
-
 app.use(express.json());
 
 let ideas = [{ id: 1, text: 'Build a JavaScript portfolio project' }];
 
-app.get('/api/ideas', (req, res) => {
-  res.json(ideas);
-});
+app.get('/api/ideas', (req, res) => res.json(ideas));
 
 app.post('/api/ideas', (req, res) => {
-  if (!req.body.text) {
-    return res.status(400).json({ message: 'Text is required' });
-  }
-
+  if (!req.body.text) return res.status(400).json({ message: 'Text is required' });
   const idea = { id: Date.now(), text: req.body.text };
   ideas.push(idea);
   res.status(201).json(idea);
 });
-
-app.listen(3000, () => console.log('API running on port 3000'));
 ```
 
-**Explanation:** REST APIs expose application data through HTTP endpoints. Backend projects should use clear routes, validation, proper status codes, and predictable JSON responses.
+**Explanation:** This folder covers REST API design, routes, middleware, controllers, JSON, request bodies, route parameters, status codes, validation, and CRUD endpoints.
 
 ## 21-randomideas-frontend
 
 **Folder:** [21-randomideas-frontend](./21-randomideas-frontend)
-
-**Concepts covered:** frontend-to-backend communication, GET requests, POST requests, forms, validation, rendering API responses, loading states, error states, client-side CRUD.
 
 ```javascript
 async function loadIdeas() {
@@ -593,19 +426,9 @@ async function loadIdeas() {
     .map(idea => `<li>${idea.text}</li>`)
     .join('');
 }
-
-async function submitIdea(text) {
-  await fetch('/api/ideas', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ text })
-  });
-
-  await loadIdeas();
-}
 ```
 
-**Explanation:** The frontend project completes the full-stack workflow by sending requests to the REST API and rendering returned data in the browser.
+**Explanation:** This folder covers frontend-to-backend communication, GET requests, POST requests, forms, validation, rendering API responses, loading states, error states, and client-side CRUD.
 
 ---
 
@@ -793,44 +616,6 @@ This section documents the interview-preparation folder, including course setup,
 4. [RandomIdeas REST API](./20-randomideas-rest-api)
 5. [RandomIdeas Frontend](./21-randomideas-frontend)
 6. [JavaScript Interview Question Mastery 2026](./JavaScript-Interview-Question-Mastery-2026)
-
----
-
-# Common Commands
-
-## Browser-Based Lessons
-
-Open the folder's `index.html` file in a browser when available, or use Live Server in Visual Studio Code.
-
-```bash
-# VS Code workflow
-# 1. Open the project folder
-# 2. Right-click index.html
-# 3. Select "Open with Live Server"
-```
-
-## Node.js / API Projects
-
-Use this workflow when a folder contains `package.json`.
-
-```bash
-npm install
-npm start
-```
-
-If a development script is available:
-
-```bash
-npm run dev
-```
-
-## Testing
-
-Use this command in folders that include a test setup.
-
-```bash
-npm test
-```
 
 ---
 
