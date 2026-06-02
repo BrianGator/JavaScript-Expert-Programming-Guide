@@ -8,6 +8,20 @@ Each folder represents a focused JavaScript topic, project, or methodology. The 
 
 ---
 
+## Project README Cross-Link Hub
+
+Use this section to move between the major JavaScript, React, Vue, Angular, Node, and interview-preparation projects. Each row includes a direct folder link and a direct README link.
+
+| Project | Folder Link | README Link | Related Project Links |
+|---|---|---|---|
+| **Vue JavaScript 3.0 Cookbook** | [Open Vue Folder](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/Vue-JavaScript-3.0-CookBook) | [Vue README](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/blob/main/Vue-JavaScript-3.0-CookBook/README.md) | [React](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/React-JavaScript-Full-Stack-Dev-Pro-2026) · [Angular](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/Angular-TypeScript-Fifth-Edition-2026) · [Node](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026) · [Interview](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/JavaScript-Interview-Question-Mastery-2026) |
+| **React JavaScript Full Stack Dev Pro 2026** | [Open React Folder](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/React-JavaScript-Full-Stack-Dev-Pro-2026) | [React README](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/blob/main/React-JavaScript-Full-Stack-Dev-Pro-2026/README.md) | [Vue](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/Vue-JavaScript-3.0-CookBook) · [Angular](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/Angular-TypeScript-Fifth-Edition-2026) · [Node](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026) · [Interview](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/JavaScript-Interview-Question-Mastery-2026) |
+| **Node JavaScript Full Stack Web Dev Mastery 2026** | [Open Node Folder](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026) | [Node README](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/blob/main/Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026/README.md) | [React](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/React-JavaScript-Full-Stack-Dev-Pro-2026) · [Vue](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/Vue-JavaScript-3.0-CookBook) · [Angular](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/Angular-TypeScript-Fifth-Edition-2026) · [Interview](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/JavaScript-Interview-Question-Mastery-2026) |
+| **Angular TypeScript Fifth Edition 2026** | [Open Angular Folder](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/Angular-TypeScript-Fifth-Edition-2026) | [Angular README](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/blob/main/Angular-TypeScript-Fifth-Edition-2026/README.md) | [React](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/React-JavaScript-Full-Stack-Dev-Pro-2026) · [Vue](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/Vue-JavaScript-3.0-CookBook) · [Node](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026) · [Interview](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/JavaScript-Interview-Question-Mastery-2026) |
+| **JavaScript Interview Question Mastery 2026** | [Open Interview Folder](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/JavaScript-Interview-Question-Mastery-2026) | [Interview README](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/blob/main/JavaScript-Interview-Question-Mastery-2026/README.md) | [React](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/React-JavaScript-Full-Stack-Dev-Pro-2026) · [Vue](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/Vue-JavaScript-3.0-CookBook) · [Angular](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/Angular-TypeScript-Fifth-Edition-2026) · [Node](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026) |
+
+---
+
 ## Main Project Areas
 
 | Project Area | Link | README | Description |
@@ -56,57 +70,42 @@ Each folder represents a focused JavaScript topic, project, or methodology. The 
 
 ---
 
-## Vue JavaScript 3.0 Cookbook
+## Framework and Full-Stack Project Guides
 
-**Folder:** [Vue-JavaScript-3.0-CookBook](./Vue-JavaScript-3.0-CookBook)
+### Vue JavaScript 3.0 Cookbook
 
+**Folder:** [Vue-JavaScript-3.0-CookBook](./Vue-JavaScript-3.0-CookBook)  
 **README:** [Vue-JavaScript-3.0-CookBook/README.md](./Vue-JavaScript-3.0-CookBook/README.md)
 
-This project area contains a detailed 11-chapter Vue 3 tutorial guide with code samples, expected outputs, detailed expected results, and key takeaways.
+Detailed Vue 3 tutorial guide covering components, TypeScript, data binding, validation, events, computed properties, reusable components, mixins, HTTP, Axios, vue-router, Vuex, transitions, UI frameworks, deployment, directives, plugins, SSR, Nuxt, and Quasar.
 
-### Covered Chapters
+### React JavaScript Full Stack Dev Pro 2026
 
-1. Understanding Vue 3 and Creating Components
-2. Introducing TypeScript and the Vue Ecosystem
-3. Data Binding, Form Validations, Events, and Computed Properties
-4. Components, Mixins, and Functional Components
-5. Fetching Data from the Web via HTTP Requests
-6. Managing Routes with vue-router
-7. Managing the Application State with Vuex
-8. Animating Your Application with Transitions and CSS
-9. Creating Beautiful Applications Using UI Frameworks
-10. Deploying an Application to Cloud Platforms
-11. Directives, Plugins, SSR, and More
-
----
-
-## Angular TypeScript Fifth Edition 2026
-
-**Folder:** [Angular-TypeScript-Fifth-Edition-2026](./Angular-TypeScript-Fifth-Edition-2026)
-
-**README:** [Angular-TypeScript-Fifth-Edition-2026/README.md](./Angular-TypeScript-Fifth-Edition-2026/README.md)
-
-This project area contains a detailed 15-chapter Angular and TypeScript tutorial guide with code samples, expected outputs, detailed expected results, and key takeaways.
-
----
-
-## React JavaScript Full Stack Dev Pro 2026
-
-**Folder:** [React-JavaScript-Full-Stack-Dev-Pro-2026](./React-JavaScript-Full-Stack-Dev-Pro-2026)
-
+**Folder:** [React-JavaScript-Full-Stack-Dev-Pro-2026](./React-JavaScript-Full-Stack-Dev-Pro-2026)  
 **README:** [React-JavaScript-Full-Stack-Dev-Pro-2026/README.md](./React-JavaScript-Full-Stack-Dev-Pro-2026/README.md)
 
-This project area contains a detailed React tutorial guide with code samples, expected outputs, detailed expected results, and key takeaways.
+Detailed React tutorial guide covering modern setup, JSX, state, hooks, forms, routing, Context API, API integration, deployment, Strapi, Cloudinary, TanStack Query, TanStack Router, Express, MongoDB, JWT, and full-stack authentication.
 
----
+### Node JavaScript Full Stack Web Dev Mastery 2026
 
-## Node JavaScript Full Stack Web Dev Mastery 2026
-
-**Folder:** [Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026](./Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026)
-
+**Folder:** [Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026](./Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026)  
 **README:** [Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026/README.md](./Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026/README.md)
 
-This project area contains a detailed chapter-by-chapter Node.js and full-stack JavaScript tutorial guide with code samples, expected outputs, detailed expected results, and key takeaways.
+Detailed Node.js and full-stack JavaScript tutorial guide covering Node tools, TypeScript, concurrency, HTTP, streams, security, testing, templates, forms, databases, sessions, REST APIs, authentication, authorization, SportsStore, administration, and deployment.
+
+### Angular TypeScript Fifth Edition 2026
+
+**Folder:** [Angular-TypeScript-Fifth-Edition-2026](./Angular-TypeScript-Fifth-Edition-2026)  
+**README:** [Angular-TypeScript-Fifth-Edition-2026/README.md](./Angular-TypeScript-Fifth-Edition-2026/README.md)
+
+Detailed Angular and TypeScript tutorial guide covering Angular CLI, components, templates, pipes, directives, services, dependency injection, RxJS, signals, HTTP, routing, forms, error handling, Angular Material, testing, production builds, SSR, SSG, and performance optimization.
+
+### JavaScript Interview Question Mastery 2026
+
+**Folder:** [JavaScript-Interview-Question-Mastery-2026](./JavaScript-Interview-Question-Mastery-2026)  
+**README:** [JavaScript-Interview-Question-Mastery-2026/README.md](./JavaScript-Interview-Question-Mastery-2026/README.md)
+
+Detailed JavaScript interview preparation guide covering JavaScript fundamentals, DOM questions, asynchronous JavaScript, callbacks, promises, comparisons, memoization, algorithms, data structures, mapping, validation, and practical coding exercises.
 
 ---
 
