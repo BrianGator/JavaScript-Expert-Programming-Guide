@@ -2,20 +2,25 @@
 
 ## Project Links
 
-- [Back to Main Repository](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide)
-- [Root README](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/blob/main/readme.md)
-- [React Native & React Fifth Edition Folder](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/React-Native-TypeScript-5th-Edition)
-- [React JavaScript Full Stack Dev Pro 2026](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/React-JavaScript-Full-Stack-Dev-Pro-2026)
-- [Node JavaScript Full Stack Web Dev Mastery 2026](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026)
-- [Angular TypeScript Fifth Edition 2026](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/Angular-TypeScript-Fifth-Edition-2026)
-- [Vue JavaScript 3.0 Cookbook](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/Vue-JavaScript-3.0-CookBook)
-- [JavaScript Interview Question Mastery 2026](https://github.com/BrianGator/JavaScript-Expert-Programming-Guide/tree/main/JavaScript-Interview-Question-Mastery-2026)
+- [Back to Main Repository](https://github.com/BrianGator/JavaScript-React-Node-Expert-Guide)
+- [Root README](https://github.com/BrianGator/JavaScript-React-Node-Expert-Guide/blob/main/readme.md)
+- [React Native & React Fifth Edition Folder](https://github.com/BrianGator/JavaScript-React-Node-Expert-Guide/tree/main/React-Native-TypeScript-5th-Edition)
+- [React JavaScript Full Stack Dev Pro 2026](https://github.com/BrianGator/JavaScript-React-Node-Expert-Guide/tree/main/React-JavaScript-Full-Stack-Dev-Pro-2026)
+- [Node JavaScript Full Stack Web Dev Mastery 2026](https://github.com/BrianGator/JavaScript-React-Node-Expert-Guide/tree/main/Node-JavaScript-Full-Stack-Web-Dev-Mastery-2026)
+- [Angular TypeScript Fifth Edition 2026](https://github.com/BrianGator/JavaScript-React-Node-Expert-Guide/tree/main/Angular-TypeScript-Fifth-Edition-2026)
+- [Vue JavaScript 3.0 Cookbook](https://github.com/BrianGator/JavaScript-React-Node-Expert-Guide/tree/main/Vue-JavaScript-3.0-CookBook)
+- [JavaScript Interview Question Mastery 2026](https://github.com/BrianGator/JavaScript-React-Node-Expert-Guide/tree/main/JavaScript-Interview-Question-Mastery-2026)
 
 ## Overview
 
-The **React Native & React Fifth Edition** project is a cross-platform JavaScript and TypeScript learning path for building applications across mobile, web, desktop, and full-stack environments. It covers React Native mobile development, React web development, JSX, components, hooks, navigation, lists, geolocation, maps, gestures, progress indicators, modals, animations, image handling, offline support, routing, lazy loading, UI framework components, performance, server data, state management, server-side rendering, and testing.
+The **React Native & React Fifth Edition** project is a cross-platform JavaScript and TypeScript learning path for building applications across mobile, web, desktop, and full-stack environments. It covers React web development, React Native mobile development, JSX, components, hooks, navigation, lists, geolocation, maps, gestures, progress indicators, modals, animations, image handling, offline support, routing, lazy loading, UI framework components, performance, server data, state management, server-side rendering, and testing.
 
-This README is written as a tutorial guide. Each chapter includes programming concepts, code samples, expected output, expected results, detailed explanations, and key takeaways.
+This README keeps **React Native Mobile Development listed first**, but uses the requested chapter numbering:
+
+- **React Web Development:** Chapters **1–14**
+- **React Native Mobile Development:** Chapters **15–28**
+
+Each chapter includes programming concepts, code samples, expected output, expected results, detailed explanations, and key takeaways.
 
 ---
 
@@ -25,51 +30,49 @@ This README is written as a tutorial guide. Each chapter includes programming co
 
 | # | Chapter | Main Concepts |
 |---|---|---|
-| 1 | [Why React Native?](#1-why-react-native) | Native mobile apps, React familiarity, JSX, mobile web limits, iOS/Android differences. |
-| 2 | [React Native under the Hood](#2-react-native-under-the-hood) | React Native architecture, JS modules, native modules, components, APIs. |
-| 3 | [Kick-Starting React Native Projects](#3-kick-starting-react-native-projects) | React Native CLI, Expo CLI, Expo Snack, running on physical devices. |
-| 4 | [Building Responsive Layouts with Flexbox](#4-building-responsive-layouts-with-flexbox) | Flexbox, React Native styles, Styled Components, responsive layouts. |
-| 5 | [Navigating Between Screens](#5-navigating-between-screens) | Navigation basics, route params, headers, tabs, drawers, file-based navigation. |
-| 6 | [Rendering Item Lists](#6-rendering-item-lists) | FlatList, sorting, filtering, fetching lists, lazy loading, pull to refresh. |
-| 7 | [Geolocation and Maps](#7-geolocation-and-maps) | Location permissions, geolocation, maps, markers, points of interest. |
-| 8 | [Collecting User Input](#8-collecting-user-input) | TextInput, Picker/select patterns, switches, date/time input. |
-| 9 | [Responding to User Gestures](#9-responding-to-user-gestures) | ScrollView, touch feedback, Pressable, swipeable/cancellable UI. |
-| 10 | [Showing Progress](#10-showing-progress) | Activity indicators, navigation progress, measured progress, step progress. |
-| 11 | [Displaying Modal Screens](#11-displaying-modal-screens) | Confirmations, error confirmations, passive notifications, activity modals. |
-| 12 | [Using Animations](#12-using-animations) | Reanimated, Animated API, layout animations, style animations. |
-| 13 | [Controlling Image Display](#13-controlling-image-display) | Local/remote images, resizing, lazy loading, icons. |
-| 14 | [Going Offline](#14-going-offline) | Network state, local storage, synchronization, offline-first behavior. |
+| 15 | [Why React Native?](#15-why-react-native) | Native mobile apps, React familiarity, JSX, mobile web limits, iOS/Android differences. |
+| 16 | [React Native under the Hood](#16-react-native-under-the-hood) | React Native architecture, JS modules, native modules, components, APIs. |
+| 17 | [Kick-Starting React Native Projects](#17-kick-starting-react-native-projects) | React Native CLI, Expo CLI, Expo Snack, running on physical devices. |
+| 18 | [Building Responsive Layouts with Flexbox](#18-building-responsive-layouts-with-flexbox) | Flexbox, React Native styles, Styled Components, responsive layouts. |
+| 19 | [Navigating Between Screens](#19-navigating-between-screens) | Navigation basics, route params, headers, tabs, drawers, file-based navigation. |
+| 20 | [Rendering Item Lists](#20-rendering-item-lists) | FlatList, sorting, filtering, fetching lists, lazy loading, pull to refresh. |
+| 21 | [Geolocation and Maps](#21-geolocation-and-maps) | Location permissions, geolocation, maps, markers, points of interest. |
+| 22 | [Collecting User Input](#22-collecting-user-input) | TextInput, picker/select patterns, switches, date/time input. |
+| 23 | [Responding to User Gestures](#23-responding-to-user-gestures) | ScrollView, touch feedback, Pressable, swipeable/cancellable UI. |
+| 24 | [Showing Progress](#24-showing-progress) | Activity indicators, navigation progress, measured progress, step progress. |
+| 25 | [Displaying Modal Screens](#25-displaying-modal-screens) | Confirmations, error confirmations, passive notifications, activity modals. |
+| 26 | [Using Animations](#26-using-animations) | Reanimated, Animated API, layout animations, style animations. |
+| 27 | [Controlling Image Display](#27-controlling-image-display) | Local/remote images, resizing, lazy loading, icons. |
+| 28 | [Going Offline](#28-going-offline) | Network state, local storage, synchronization, offline-first behavior. |
 
 ### React Web Development
 
 | # | Chapter | Main Concepts |
 |---|---|---|
-| 15 | [Why React?](#15-why-react) | Declarative UI, component architecture, ecosystem, web app use cases. |
-| 16 | [Rendering with JSX](#16-rendering-with-jsx) | JSX expressions, attributes, conditional rendering, lists. |
-| 17 | [Understanding React Components and Hooks](#17-understanding-react-components-and-hooks) | Components, props, state, hooks, effects, reusable logic. |
-| 18 | [Event Handling in the React Way](#18-event-handling-in-the-react-way) | Synthetic events, handlers, form events, controlled interactions. |
-| 19 | [Crafting Reusable Components](#19-crafting-reusable-components) | Composition, children, slots-style patterns, reusable UI APIs. |
-| 20 | [Type-Checking and Validation with TypeScript](#20-type-checking-and-validation-with-typescript) | Props typing, interfaces, generics, safer component contracts. |
-| 21 | [Handling Navigation with Routes](#21-handling-navigation-with-routes) | React Router, route params, nested routes, protected routes. |
-| 22 | [Code Splitting Using Lazy Components and Suspense](#22-code-splitting-using-lazy-components-and-suspense) | Lazy imports, Suspense fallbacks, bundle optimization. |
-| 23 | [User Interface Framework Components](#23-user-interface-framework-components) | Material UI, component libraries, design systems. |
-| 24 | [High-Performance State Updates](#24-high-performance-state-updates) | Memoization, reducers, immutable updates, render optimization. |
-| 25 | [Fetching Data from a Server](#25-fetching-data-from-a-server) | Fetch API, loading/error states, REST, GraphQL, WebSockets. |
-| 26 | [State Management in React](#26-state-management-in-react) | Context, reducers, external stores, server state, global state. |
-| 27 | [Server-Side Rendering](#27-server-side-rendering) | SSR, hydration, SEO, server-rendered React. |
-| 28 | [Unit Testing in React](#28-unit-testing-in-react) | Vitest, component tests, mocking, user interaction tests. |
+| 1 | [Why React?](#1-why-react) | Declarative UI, component architecture, ecosystem, web app use cases. |
+| 2 | [Rendering with JSX](#2-rendering-with-jsx) | JSX expressions, attributes, conditional rendering, lists. |
+| 3 | [Understanding React Components and Hooks](#3-understanding-react-components-and-hooks) | Components, props, state, hooks, effects, reusable logic. |
+| 4 | [Event Handling in the React Way](#4-event-handling-in-the-react-way) | Synthetic events, handlers, form events, controlled interactions. |
+| 5 | [Crafting Reusable Components](#5-crafting-reusable-components) | Composition, children, reusable component APIs. |
+| 6 | [Type-Checking and Validation with TypeScript](#6-type-checking-and-validation-with-typescript) | Props typing, interfaces, generics, safer component contracts. |
+| 7 | [Handling Navigation with Routes](#7-handling-navigation-with-routes) | React Router, route params, nested routes, protected routes. |
+| 8 | [Code Splitting Using Lazy Components and Suspense](#8-code-splitting-using-lazy-components-and-suspense) | Lazy imports, Suspense fallbacks, bundle optimization. |
+| 9 | [User Interface Framework Components](#9-user-interface-framework-components) | Material UI, component libraries, design systems. |
+| 10 | [High-Performance State Updates](#10-high-performance-state-updates) | Memoization, reducers, immutable updates, render optimization. |
+| 11 | [Fetching Data from a Server](#11-fetching-data-from-a-server) | Fetch API, loading/error states, REST, GraphQL, WebSockets. |
+| 12 | [State Management in React](#12-state-management-in-react) | Context, reducers, external stores, server state, global state. |
+| 13 | [Server-Side Rendering](#13-server-side-rendering) | SSR, hydration, SEO, server-rendered React. |
+| 14 | [Unit Testing in React](#14-unit-testing-in-react) | Vitest, component tests, mocking, user interaction tests. |
 
 ---
 
 # React Native Mobile Development
 
-## 1. Why React Native?
+## 15. Why React Native?
 
 ### Programming Concepts
 
-React Native lets developers build native mobile applications using JavaScript, TypeScript, React components, and JSX. Instead of rendering HTML elements in a browser, React Native renders platform-native UI components for iOS and Android. The value proposition is code reuse, familiar React patterns, and access to native mobile capabilities.
-
-This chapter introduces React Native, compares native apps with mobile web apps, explains why React and JSX feel familiar, and discusses why Android and iOS are different platforms with similar application patterns.
+React Native lets developers build native mobile applications using JavaScript, TypeScript, React components, and JSX. Instead of rendering browser HTML, React Native renders platform-native UI components for iOS and Android. The main value is code reuse, familiar React patterns, and access to native device capabilities.
 
 ### Code Sample
 
@@ -100,28 +103,26 @@ Started
 
 ### Expected Result
 
-The app displays native mobile text and a native button. Tapping the button triggers the `onPress` event handler.
+The app displays native mobile text and a native button. Tapping the button triggers the `onPress` handler.
 
 ### Detailed Explanation
 
-`SafeAreaView`, `Text`, and `Button` are React Native components, not HTML tags. JSX describes the UI, and React Native maps that UI to native platform components. The same React event-driven programming model applies, but mobile events use APIs such as `onPress` instead of browser click events.
+`SafeAreaView`, `Text`, and `Button` are React Native components, not HTML tags. JSX describes the UI, and React Native maps the component tree to native platform widgets.
 
 ### Key Takeaways
 
 - React Native builds native mobile UI with React concepts.
 - React Native does not render browser HTML.
 - JSX and component thinking transfer from React web to mobile.
-- Mobile apps need platform-aware design for iOS and Android.
+- Mobile apps require iOS and Android platform awareness.
 
 ---
 
-## 2. React Native under the Hood
+## 16. React Native under the Hood
 
 ### Programming Concepts
 
-React Native uses JavaScript to describe UI and business logic while native platform modules handle device-specific rendering and APIs. Modern React Native architecture focuses on faster communication between JavaScript and native layers, native modules, native components, and platform APIs.
-
-This chapter explains React Native architecture, JavaScript modules, native modules, and the component/API layer that connects React code to mobile capabilities.
+React Native uses JavaScript for application logic while native platform modules handle rendering and device APIs. Modern React Native architecture improves communication between JavaScript and native layers through native modules, native components, and platform APIs.
 
 ### Code Sample
 
@@ -153,24 +154,22 @@ The app detects the current platform and renders platform-specific information.
 
 ### Detailed Explanation
 
-`Platform.OS` is a React Native API that exposes the current operating system. This allows apps to branch behavior or styles when iOS and Android require different native behavior.
+`Platform.OS` exposes the current mobile operating system. This helps branch styles, APIs, or behavior when iOS and Android require different handling.
 
 ### Key Takeaways
 
 - React Native connects JavaScript to native platform capabilities.
 - Native modules expose device features to JavaScript.
 - React Native components map to native UI widgets.
-- Platform-specific checks help handle iOS and Android differences.
+- Platform-specific checks help support iOS and Android differences.
 
 ---
 
-## 3. Kick-Starting React Native Projects
+## 17. Kick-Starting React Native Projects
 
 ### Programming Concepts
 
-React Native projects can be started with React Native CLI or Expo. Expo simplifies setup, device preview, and common native capabilities. Expo Snack allows quick browser-based experimentation without a full local setup.
-
-This chapter covers installing tools, creating projects, running apps locally, viewing apps on a physical phone, and using Expo Snack.
+React Native projects can be started with React Native CLI or Expo. Expo simplifies setup, device preview, and common native capabilities. Expo Snack supports browser-based experimentation.
 
 ### Code Sample
 
@@ -205,24 +204,22 @@ Expo starts the development server, and the app can be opened in Expo Go, an emu
 
 ### Detailed Explanation
 
-Expo wraps common React Native development workflows and provides a fast feedback loop. The Metro bundler serves the JavaScript bundle to the device, and the device renders the native app UI.
+Expo wraps common React Native development workflows. Metro serves the JavaScript bundle to the device, and the device renders native UI.
 
 ### Key Takeaways
 
 - Expo is beginner-friendly and fast to start.
-- React Native CLI provides more direct native project control.
+- React Native CLI provides direct native project control.
 - Expo Snack is useful for quick examples.
 - Real device testing is important for mobile UX.
 
 ---
 
-## 4. Building Responsive Layouts with Flexbox
+## 18. Building Responsive Layouts with Flexbox
 
 ### Programming Concepts
 
-React Native uses Flexbox for layout, but the defaults differ from browser CSS. The default flex direction is column. Styles are JavaScript objects rather than CSS files. Layouts must account for screen size, orientation, safe areas, and platform differences.
-
-This chapter covers Flexbox, React Native styles, Styled Components, and building responsive mobile layouts.
+React Native uses Flexbox for layout, with a default `flexDirection` of `column`. Styles are JavaScript objects rather than CSS files. Layouts should account for screen size, safe areas, orientation, and platform differences.
 
 ### Code Sample
 
@@ -240,17 +237,8 @@ export default function FlexLayout() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    padding: 16,
-    gap: 12,
-    justifyContent: 'center'
-  },
-  card: {
-    padding: 20,
-    borderRadius: 8,
-    backgroundColor: '#eee'
-  }
+  container: { flex: 1, padding: 16, gap: 12, justifyContent: 'center' },
+  card: { padding: 20, borderRadius: 8, backgroundColor: '#eee' }
 });
 ```
 
@@ -268,7 +256,7 @@ Two card-like blocks are stacked vertically with spacing and padding.
 
 ### Detailed Explanation
 
-`flex: 1` tells the container to fill available screen space. React Native styles use camelCased property names and numeric values. The layout is vertical because React Native defaults `flexDirection` to `column`.
+`flex: 1` fills available screen space. React Native styles use camelCased properties and numeric values. Because the default direction is `column`, the cards stack vertically.
 
 ### Key Takeaways
 
@@ -279,20 +267,18 @@ Two card-like blocks are stacked vertically with spacing and padding.
 
 ---
 
-## 5. Navigating Between Screens
+## 19. Navigating Between Screens
 
 ### Programming Concepts
 
-Mobile apps usually contain multiple screens. Navigation libraries provide stack navigation, route parameters, headers, tab navigation, drawer navigation, and file-based navigation patterns.
-
-This chapter introduces navigation basics, route parameters, navigation headers, tab/drawer navigation, and file-based routing.
+Mobile apps usually contain multiple screens. Navigation libraries provide stack navigation, route parameters, headers, tab navigation, drawer navigation, and file-based navigation.
 
 ### Code Sample
 
 ```tsx
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { Button, Text, View } from 'react-native';
+import { Button, Text } from 'react-native';
 
 const Stack = createNativeStackNavigator();
 
@@ -329,7 +315,7 @@ The app navigates from Home to Details and passes an ID through route parameters
 
 ### Detailed Explanation
 
-Stack navigation works like a stack of screens. `navigation.navigate()` pushes a screen onto the stack and passes params. The target screen reads those params from `route.params`.
+Stack navigation behaves like a stack of screens. `navigation.navigate()` opens the target screen and passes params. The target screen reads them from `route.params`.
 
 ### Key Takeaways
 
@@ -340,17 +326,17 @@ Stack navigation works like a stack of screens. `navigation.navigate()` pushes a
 
 ---
 
-## 6. Rendering Item Lists
+## 20. Rendering Item Lists
 
 ### Programming Concepts
 
-Mobile lists must be performant because data sets can be large. `FlatList` renders only visible rows and supports key extraction, sorting, filtering, fetching list data, lazy loading, and pull-to-refresh.
+Mobile lists need performance. `FlatList` renders visible rows efficiently and supports key extraction, sorting, filtering, fetched data, lazy loading, and pull-to-refresh.
 
 ### Code Sample
 
 ```tsx
 import React, { useState } from 'react';
-import { FlatList, Text, View } from 'react-native';
+import { FlatList, Text } from 'react-native';
 
 const initialItems = [
   { id: '1', name: 'Kayak' },
@@ -383,7 +369,7 @@ The list renders each item efficiently using `FlatList`.
 
 ### Detailed Explanation
 
-`FlatList` receives data and a render function. `keyExtractor` gives each row a stable key. For large lists, `FlatList` avoids rendering every row at once, improving memory usage and scroll performance.
+`FlatList` receives data and a render function. `keyExtractor` gives each row a stable key. Large lists benefit because `FlatList` does not render every row at once.
 
 ### Key Takeaways
 
@@ -394,11 +380,11 @@ The list renders each item efficiently using `FlatList`.
 
 ---
 
-## 7. Geolocation and Maps
+## 21. Geolocation and Maps
 
 ### Programming Concepts
 
-Mobile apps can use location APIs and maps to display the user's current location, points of interest, markers, and annotations. This requires permissions and platform-specific setup.
+Mobile apps can use location APIs and maps to display current location, points of interest, markers, and annotations. Location features require permissions and platform-specific setup.
 
 ### Code Sample
 
@@ -427,11 +413,11 @@ Longitude: -82.4572
 
 ### Expected Result
 
-The app displays a coordinate pair that could be used to center a map or place a marker.
+The app displays a coordinate pair that could center a map or place a marker.
 
 ### Detailed Explanation
 
-Real geolocation requires permission prompts and a location API. Mapping libraries can use latitude and longitude values to render maps, markers, and points of interest.
+Real geolocation requires permission prompts and a location API. Mapping libraries use latitude and longitude to render maps, markers, and points of interest.
 
 ### Key Takeaways
 
@@ -442,11 +428,11 @@ Real geolocation requires permission prompts and a location API. Mapping librari
 
 ---
 
-## 8. Collecting User Input
+## 22. Collecting User Input
 
 ### Programming Concepts
 
-React Native input controls include `TextInput`, switches, picker/select patterns, and date/time inputs. Controlled input state works similarly to React web, but components are mobile-specific.
+React Native input controls include `TextInput`, switches, picker/select patterns, and date/time inputs. Controlled input state works like React web, but the components are mobile-specific.
 
 ### Code Sample
 
@@ -483,7 +469,7 @@ The screen reflects text and switch values as controlled state.
 
 ### Detailed Explanation
 
-`TextInput` uses `onChangeText` instead of browser-style `onChange`. `Switch` uses `value` and `onValueChange`. Both controls update React state and cause the displayed summary to re-render.
+`TextInput` uses `onChangeText`, while `Switch` uses `value` and `onValueChange`. Both update React state and re-render the summary.
 
 ### Key Takeaways
 
@@ -494,7 +480,7 @@ The screen reflects text and switch values as controlled state.
 
 ---
 
-## 9. Responding to User Gestures
+## 23. Responding to User Gestures
 
 ### Programming Concepts
 
@@ -531,7 +517,7 @@ The component responds differently to tap and long-press gestures.
 
 ### Detailed Explanation
 
-`Pressable` provides a flexible touch target. Gesture handlers can trigger visual feedback, alerts, navigation, or state updates. Swipeable and cancellable interactions are useful for list items and mobile workflows.
+`Pressable` provides a flexible touch target. Gesture handlers can trigger visual feedback, alerts, navigation, or state updates.
 
 ### Key Takeaways
 
@@ -542,11 +528,11 @@ The component responds differently to tap and long-press gestures.
 
 ---
 
-## 10. Showing Progress
+## 24. Showing Progress
 
 ### Programming Concepts
 
-Progress indicators communicate that work is happening. Mobile apps need loading spinners, navigation indicators, measured progress bars, step progress, and activity feedback.
+Progress indicators communicate that work is happening. Mobile apps need spinners, navigation indicators, measured progress bars, step progress, and activity feedback.
 
 ### Code Sample
 
@@ -573,11 +559,11 @@ Loading your dashboard...
 
 ### Expected Result
 
-The user sees an activity indicator and loading message while waiting for work to complete.
+The user sees an activity indicator and loading message while waiting.
 
 ### Detailed Explanation
 
-`ActivityIndicator` is a native loading indicator. It is useful when the duration is unknown. For known-length processes, measured progress bars or step indicators provide more detail.
+`ActivityIndicator` is a native loading indicator. It is useful for unknown wait times. For known-length work, measured progress bars or step indicators provide more detail.
 
 ### Key Takeaways
 
@@ -588,7 +574,7 @@ The user sees an activity indicator and loading message while waiting for work t
 
 ---
 
-## 11. Displaying Modal Screens
+## 25. Displaying Modal Screens
 
 ### Programming Concepts
 
@@ -631,7 +617,7 @@ The modal appears and disappears based on component state.
 
 ### Detailed Explanation
 
-`Modal` is controlled by the `visible` prop. React state determines whether the modal is shown. This pattern works for confirmations, error details, and temporary task status screens.
+`Modal` is controlled by the `visible` prop. React state determines whether it is shown.
 
 ### Key Takeaways
 
@@ -642,7 +628,7 @@ The modal appears and disappears based on component state.
 
 ---
 
-## 12. Using Animations
+## 26. Using Animations
 
 ### Programming Concepts
 
@@ -652,7 +638,7 @@ React Native animations improve feedback and polish. The Animated API and React 
 
 ```tsx
 import React, { useEffect, useRef } from 'react';
-import { Animated, Text } from 'react-native';
+import { Animated } from 'react-native';
 
 export default function FadeInText() {
   const opacity = useRef(new Animated.Value(0)).current;
@@ -692,7 +678,7 @@ The text smoothly fades in when the component mounts.
 
 ---
 
-## 13. Controlling Image Display
+## 27. Controlling Image Display
 
 ### Programming Concepts
 
@@ -742,7 +728,7 @@ Remote images require explicit width and height. `resizeMode` controls how the i
 
 ---
 
-## 14. Going Offline
+## 28. Going Offline
 
 ### Programming Concepts
 
@@ -785,11 +771,11 @@ Offline-ready apps should persist important data locally and synchronize changes
 
 # React Web Development
 
-## 15. Why React?
+## 1. Why React?
 
 ### Programming Concepts
 
-React is a declarative UI library for building component-based web applications. Developers describe what UI should look like for a given state, and React updates the DOM efficiently.
+React is a declarative UI library for building component-based web applications. Developers describe what the UI should look like for a given state, and React updates the DOM efficiently.
 
 ### Code Sample
 
@@ -822,7 +808,7 @@ React components are JavaScript or TypeScript functions that return JSX. This ma
 
 ---
 
-## 16. Rendering with JSX
+## 2. Rendering with JSX
 
 ### Programming Concepts
 
@@ -863,7 +849,7 @@ The array is rendered as a list of JSX elements.
 
 ---
 
-## 17. Understanding React Components and Hooks
+## 3. Understanding React Components and Hooks
 
 ### Programming Concepts
 
@@ -910,7 +896,7 @@ Clicking the button updates state, re-renders the UI, and updates the browser ti
 
 ---
 
-## 18. Event Handling in the React Way
+## 4. Event Handling in the React Way
 
 ### Programming Concepts
 
@@ -951,7 +937,7 @@ The controlled input stores its value in React state, and submission logs the cu
 
 ### Detailed Explanation
 
-`onChange` updates state as the user types. `onSubmit` handles the form. React uses synthetic event wrappers that provide a consistent event interface.
+`onChange` updates state as the user types. `onSubmit` handles the form. React uses synthetic event wrappers for a consistent event interface.
 
 ### Key Takeaways
 
@@ -962,7 +948,7 @@ The controlled input stores its value in React state, and submission logs the cu
 
 ---
 
-## 19. Crafting Reusable Components
+## 5. Crafting Reusable Components
 
 ### Programming Concepts
 
@@ -1009,7 +995,7 @@ The component renders a title and whatever child content is passed to it.
 
 ---
 
-## 20. Type-Checking and Validation with TypeScript
+## 6. Type-Checking and Validation with TypeScript
 
 ### Programming Concepts
 
@@ -1052,7 +1038,7 @@ The `User` type requires `id`, `name`, and `active`. If a parent passes incomple
 
 ---
 
-## 21. Handling Navigation with Routes
+## 7. Handling Navigation with Routes
 
 ### Programming Concepts
 
@@ -1061,7 +1047,7 @@ React Router maps browser URLs to components. Routes support dynamic params, nes
 ### Code Sample
 
 ```tsx
-import { Link, Route, Routes, useParams } from 'react-router-dom';
+import { Route, Routes, useParams } from 'react-router-dom';
 
 function UserPage() {
   const { id } = useParams();
@@ -1097,7 +1083,7 @@ The dynamic route captures `42` and displays it in the page.
 
 ---
 
-## 22. Code Splitting Using Lazy Components and Suspense
+## 8. Code Splitting Using Lazy Components and Suspense
 
 ### Programming Concepts
 
@@ -1143,7 +1129,7 @@ The admin page code loads separately from the main bundle.
 
 ---
 
-## 23. User Interface Framework Components
+## 9. User Interface Framework Components
 
 ### Programming Concepts
 
@@ -1191,7 +1177,7 @@ Material UI components encapsulate styling, accessibility conventions, variants,
 
 ---
 
-## 24. High-Performance State Updates
+## 10. High-Performance State Updates
 
 ### Programming Concepts
 
@@ -1200,7 +1186,7 @@ Performance optimization includes immutable state updates, memoized values, memo
 ### Code Sample
 
 ```tsx
-import { memo, useMemo, useState } from 'react';
+import { memo, useMemo } from 'react';
 
 const Total = memo(function Total({ numbers }: { numbers: number[] }) {
   const total = useMemo(() => numbers.reduce((sum, n) => sum + n, 0), [numbers]);
@@ -1231,7 +1217,7 @@ The total is recalculated only when the `numbers` array reference changes.
 
 ---
 
-## 25. Fetching Data from a Server
+## 11. Fetching Data from a Server
 
 ### Programming Concepts
 
@@ -1284,7 +1270,7 @@ The effect runs after mount. The API response is converted to JSON and saved to 
 
 ---
 
-## 26. State Management in React
+## 12. State Management in React
 
 ### Programming Concepts
 
@@ -1293,7 +1279,7 @@ State management ranges from local component state to Context, reducers, externa
 ### Code Sample
 
 ```tsx
-import { createContext, useContext, useState } from 'react';
+import { createContext, useContext } from 'react';
 
 const ThemeContext = createContext({ theme: 'light', toggle: () => {} });
 
@@ -1326,7 +1312,7 @@ Context is useful for values needed across many components. For complex updates,
 
 ---
 
-## 27. Server-Side Rendering
+## 13. Server-Side Rendering
 
 ### Programming Concepts
 
@@ -1368,7 +1354,7 @@ SSR generates markup before JavaScript loads in the browser. Frameworks such as 
 
 ---
 
-## 28. Unit Testing in React
+## 14. Unit Testing in React
 
 ### Programming Concepts
 
@@ -1404,7 +1390,7 @@ The test passes when the component renders the expected heading.
 
 ### Detailed Explanation
 
-React Testing Library renders the component in a test DOM. `screen.getByText()` searches for visible text. The assertion verifies the component output from a user's perspective.
+React Testing Library renders the component in a test DOM. `screen.getByText()` searches for visible text. The assertion verifies component output from a user's perspective.
 
 ### Key Takeaways
 
@@ -1417,15 +1403,10 @@ React Testing Library renders the component in a test DOM. `screen.getByText()` 
 
 ## Suggested Learning Path
 
-1. Learn why React Native exists and how it differs from mobile web apps.
-2. Understand the React Native architecture and native module model.
-3. Start projects with Expo or React Native CLI.
-4. Build responsive mobile layouts with Flexbox.
-5. Add navigation, lists, maps, user input, gestures, progress, modals, animations, images, and offline support.
-6. Review React web fundamentals: JSX, components, hooks, events, reusable components, and TypeScript.
-7. Add routing, lazy loading, UI framework components, high-performance state updates, server data, and state management.
-8. Learn server-side rendering and unit testing for production-ready React applications.
+1. Start with React web fundamentals in chapters 1–14: JSX, components, hooks, events, reusable components, TypeScript, routing, lazy loading, UI frameworks, performance, server data, state management, SSR, and testing.
+2. Move into React Native mobile development in chapters 15–28: native UI, architecture, Expo, Flexbox, navigation, lists, geolocation, maps, input, gestures, progress, modals, animations, images, and offline support.
+3. Compare React web and React Native patterns so you understand which concepts transfer directly and which APIs are platform-specific.
 
 ## Portfolio Summary
 
-This folder demonstrates React Native and React development across mobile and web. It includes native mobile UI, Expo, React Native CLI, Flexbox layouts, navigation, lists, geolocation, maps, inputs, gestures, progress indicators, modals, animations, image display, offline behavior, React JSX, components, hooks, events, reusable components, TypeScript typing, routing, lazy loading, UI frameworks, performance optimization, server data, state management, server-side rendering, and unit testing.
+This folder demonstrates React Native and React development across mobile and web. It includes React web fundamentals, React Native mobile UI, Expo, React Native CLI, Flexbox layouts, navigation, lists, geolocation, maps, inputs, gestures, progress indicators, modals, animations, image display, offline behavior, JSX, components, hooks, events, reusable components, TypeScript typing, routing, lazy loading, UI frameworks, performance optimization, server data, state management, server-side rendering, and unit testing.
