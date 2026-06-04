@@ -1,6 +1,6 @@
 # JavaScript from Frontend to Backend
 
-This README expands the book repository into a practical study guide for JavaScript syntax, Vue.js client-side development, Node.js server-side development, Express routing, MongoDB persistence, and full-stack Vue + Node integration.
+This README serves as a practical study guide for JavaScript syntax, Vue.js client-side development, Node.js server-side development, Express routing, MongoDB persistence, and full-stack Vue + Node integration.
 
 ## Table of Contents
 
