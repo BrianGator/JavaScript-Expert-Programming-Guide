@@ -1,14 +1,6 @@
 # JavaScript from Frontend to Backend
 
-<a href="https://www.packtpub.com/en-us/product/javascript-from-frontend-to-backend-9781801074148"><img src="https://static.packt-cdn.com/products/9781801070317/cover/smaller" alt="JavaScript from Frontend to Backend" height="256px" align="right"></a>
-
-Repository learning guide for **JavaScript from Frontend to Backend** by Eric Sarrion, published by Packt.
-
-**Written by Brian McCarthy**
-
 This README expands the book repository into a practical study guide for JavaScript syntax, Vue.js client-side development, Node.js server-side development, Express routing, MongoDB persistence, and full-stack Vue + Node integration.
-
----
 
 ## Table of Contents
 
